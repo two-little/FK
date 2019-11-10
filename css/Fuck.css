@@ -24,7 +24,7 @@
 					left: 0px;
 					width: 100%;
 					height: 900px;
-					background-color: rgb(230,230,230);
+					background-color: rgb(230, 230, 230);
 					transition: all 0.3s;
 				}
 
@@ -55,9 +55,9 @@
 					transition: all 0.8s;
 				}
 
-				#FuckFaceType:hover{
-					color: rgba(222,225,230);
-					
+				#FuckFaceType:hover {
+					color: rgba(222, 225, 230);
+
 				}
 
 				#BigDick {
@@ -100,20 +100,16 @@
 					border-bottom-style: solid;
 				}
 
-				#confirm {
-					position: absolute;
-					left: 50%;
-					top: 30%;
-					width: 40%;
-					height: 30%;
+				.confirm {
+					margin-top: 40px;
+					height: 200px;
 					border-radius: 8px;
-					transform: translate(-50%, -30%);
 					background-color: rgb(240, 240, 240);
 					box-shadow: 2px 2px 7px 0px #576574;
 					transition: all 0.1s;
 				}
 
-				#confirm:hover {
+				.confirm:hover {
 					box-shadow: 1px 1px 3px 0px #576574;
 				}
 
@@ -145,4 +141,9 @@
 					color: red;
 
 
+				}
+
+				#contentMain {
+					position: absolute;
+					top: 10%;
 				}
