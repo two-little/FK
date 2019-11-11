@@ -1,154 +1,150 @@
-				body {
-					background-attachment: fixed;
-					margin: 0;
-					background-color: rgb(46, 46, 46);
-				}
+body {
+	background-attachment: fixed;
+	margin: 0;
+	background-color: rgb(46, 46, 46);
+}
 
-				body::before {
-					content: '';
-					filter: blur(5px);
-					position: absolute;
-					left: 0;
-					top: 0;
-					background-image: url(../image/background.jpg);
-					background-size: cover;
-					background-position: center;
-					width: 100%;
-					height: 100%;
-				}
-
-
-				#FuckAss {
-					position: absolute;
-					top: 90%;
-					left: 0px;
-					width: 100%;
-					height: 900px;
-					background-color: rgb(230, 230, 230);
-					transition: all 0.3s;
-				}
-
-				#FuckYouAvatar {
-					position: absolute;
-					top: calc(0px - (200px / 2));
-					left: calc((100% / 2) - (200px / 2));
-					width: 200px;
-					height: 200px;
-					border-radius: 50%;
-					border: 3px solid rgba(255, 255, 255, 0.6);
-					background-image: url("../image/qwe.jpeg");
-					background-size: cover;
-					transition: all 0.5s;
-
-				}
-
-				#FuckYouAvatar:hover {
-					transform: rotate(360deg);
-				}
-
-				#FuckFaceType {
-					position: absolute;
-					left: 50%;
-					top: 45%;
-					transform: translate(-50%, -50%);
-					color: rgba(131, 148, 150);
-					transition: all 0.8s;
-				}
-
-				#FuckFaceType:hover {
-					color: rgba(222, 225, 230);
-
-				}
-
-				#BigDick {
-					position: absolute;
-					padding-left: 30px;
-					font-size: 20px;
-					color: rgba(131, 148, 150);
-					top: 20px;
-
-				}
-
-				li {
-					position: relative;
-					list-style: none;
-					float: left;
-					margin-left: 20px;
-					margin-right: 20px;
-					font-size: 20px;
-					color: rgba(131, 148, 150);
-					height: 100%;
-				}
-
-				li::before {
-					content: '';
-					position: absolute;
-					left: 0;
-					right: 0;
-					bottom: 0;
-					top: 100%;
-					width: 100%;
-					height: 5px;
-					border-bottom-width: 3px;
-					border-bottom-color: rgba(42, 161, 152);
-					transform: translateY(5px);
-					transition: all 0.3s;
-				}
-
-				li:hover::before {
-					transform: translateY(0%);
-					border-bottom-style: solid;
-				}
-
-				.confirm {
-					margin-top: 40px;
-					height: 200px;
-					border-radius: 8px;
-					background-color: rgb(240, 240, 240);
-					box-shadow: 2px 2px 7px 0px #576574;
-					transition: all 0.1s;
-				}
-
-				.confirm:hover {
-					box-shadow: 1px 1px 3px 0px #576574;
-				}
-
-				#confirm2 {
-					position: absolute;
-					left: 50%;
-					top: 80%;
-					width: 40%;
-					height: 30%;
-					border-radius: 5px;
-					transform: translate(-50%, -80%);
-					background-color: rgba(240, 240, 240);
-					box-shadow: 2px 2px 7px 0px #576574;
-					transition: all 0.1s;
-				}
-
-				#confirm2:hover {
-					box-shadow: 1px 1px 3px 0px #576574;
-				}
-
-				#Line {
-					position: absolute;
-					SIZE=2;
-					border: 1;
-					left: 50%;
-					top: 15%;
-					width=40%;
-					transform: translate(-50%, -15%);
-					color: red;
+body::before {
+	content: '';
+	filter: blur(5px);
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-image: url(../image/background.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+}
 
 
-				}
+#FuckAss {
+	position: absolute;
+	top: 90%;
+	left: 0px;
+	width: 100%;
+	height: 900px;
+	background-color: rgb(230, 230, 230);
+	transition: all 0.3s;
+}
 
-				#contentMain {
-					position: absolute;
-					top: 10%;
-				}
+#FuckYouAvatar {
+	position: absolute;
+	top: calc(0px - (200px / 2));
+	left: calc((100% / 2) - (200px / 2));
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	transform: scale(1.2);
+	border: 3px solid rgba(255, 255, 255, 0.6);
+	background-image: url("../image/qwe.jpeg");
+	background-size: cover;
+	transition: all 0.5s;
+
+}
+
+
+#FuckFaceType {
+	position: absolute;
+	left: 50%;
+	top: 45%;
+	transform: translate(-50%, -50%);
+	color: rgba(131, 148, 150);
+	transition: all 0.8s;
+}
+
+#FuckFaceType:hover {
+	color: rgba(222, 225, 230);
+
+}
+
+#BigDick {
+	position: absolute;
+	padding-left: 30px;
+	font-size: 20px;
+	color: rgba(131, 148, 150);
+	top: 20px;
+
+}
+
+.confirm {
+	margin-top: 40px;
+	height: 200px;
+	border-radius: 8px;
+	background-color: rgb(240, 240, 240);
+	box-shadow: 2px 2px 7px 0px #576574;
+	transition: all 0.1s;
+}
+
+.confirm:hover {
+	box-shadow: 1px 1px 3px 0px #576574;
+}
+
+#confirm2 {
+	position: absolute;
+	left: 50%;
+	top: 80%;
+	width: 40%;
+	height: 30%;
+	border-radius: 5px;
+	transform: translate(-50%, -80%);
+	background-color: rgba(240, 240, 240);
+	box-shadow: 2px 2px 7px 0px #576574;
+	transition: all 0.1s;
+}
+
+#confirm2:hover {
+	box-shadow: 1px 1px 3px 0px #576574;
+}
+
+#Line {
+	position: absolute;
+	SIZE=2;
+	border: 1;
+	left: 50%;
+	top: 15%;
+	width=40%;
+	transform: translate(-50%, -15%);
+	color: red;
+
+
+}
+
+#contentMain {
+	position: absolute;
+	top: 10%;
+}
+
+div a {
+	text-decoration: none;
+	color: #bdc3c7;
+	transition: all 0.2s;
+}
+
+div a:hover {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: rgba(47, 53, 66,0.5);
+	border-color: rgba(116, 125, 140,0.5);
+}
+
+.Line{
+	border-top: 3px solid rgba(131, 148, 150);
+	border-bottom: 3px solid rgba(131, 148, 150);
+	border-left: 3px solid rgba(131, 148, 150);
+	border-right: 3px solid rgba(131, 148, 150);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 35px;
+	padding-right: 35px;
+	border-radius: 1px;
+	margin-right: 20px;
+}
 
 #FuckButton{
 	position: absolute;
-	
+	width: 100%;
+	top: 35%;
+	transform: translateY(-35%);
 }
+
