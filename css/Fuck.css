@@ -17,13 +17,26 @@ body::before {
 	height: 100%;
 }
 
+div a {
+	text-decoration: none;
+	color: #bdc3c7;
+	transition: all 0.2s;
+}
+
+div a:hover {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: rgba(47, 53, 66, 0.5);
+	border-color: rgba(116, 125, 140, 0.5);
+}
+
 
 #FuckAss {
 	position: absolute;
 	top: 90%;
 	left: 0px;
 	width: 100%;
-	height: 900px;
+	height: 1300px;
 	background-color: rgb(230, 230, 230);
 	transition: all 0.3s;
 }
@@ -67,36 +80,6 @@ body::before {
 
 }
 
-.confirm {
-	margin-top: 40px;
-	height: 200px;
-	border-radius: 8px;
-	background-color: rgb(240, 240, 240);
-	box-shadow: 2px 2px 7px 0px #576574;
-	transition: all 0.1s;
-}
-
-.confirm:hover {
-	box-shadow: 1px 1px 3px 0px #576574;
-}
-
-#confirm2 {
-	position: absolute;
-	left: 50%;
-	top: 80%;
-	width: 40%;
-	height: 30%;
-	border-radius: 5px;
-	transform: translate(-50%, -80%);
-	background-color: rgba(240, 240, 240);
-	box-shadow: 2px 2px 7px 0px #576574;
-	transition: all 0.1s;
-}
-
-#confirm2:hover {
-	box-shadow: 1px 1px 3px 0px #576574;
-}
-
 #Line {
 	position: absolute;
 	SIZE=2;
@@ -112,23 +95,12 @@ body::before {
 
 #contentMain {
 	position: absolute;
-	top: 10%;
+	top: 15%;
 }
 
-div a {
-	text-decoration: none;
-	color: #bdc3c7;
-	transition: all 0.2s;
-}
 
-div a:hover {
-	text-decoration: none;
-	color: #ffffff;
-	background-color: rgba(47, 53, 66,0.5);
-	border-color: rgba(116, 125, 140,0.5);
-}
 
-.Line{
+.Line {
 	border-top: 3px solid rgba(131, 148, 150);
 	border-bottom: 3px solid rgba(131, 148, 150);
 	border-left: 3px solid rgba(131, 148, 150);
@@ -141,10 +113,25 @@ div a:hover {
 	margin-right: 20px;
 }
 
-#FuckButton{
+#FuckButton {
 	position: absolute;
 	width: 100%;
 	top: 35%;
 	transform: translateY(-35%);
 }
 
+
+.BackGroundImage {
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 100%;
+	transform: scale(1.2);
+	transition: all 0.2s;
+	filter: blur(0px);
+}
+
+.BackGroundImage:hover{
+	transform: scale(1.4);
+	filter: blur(3px);
+}
